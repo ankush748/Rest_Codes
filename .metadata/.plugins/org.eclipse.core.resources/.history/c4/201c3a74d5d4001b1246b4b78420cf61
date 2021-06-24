@@ -1,0 +1,11 @@
+package com.test.rest_api;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+@Test
+public class Jira_Test {
+	
+	RestAssured.baseURI="http://localhost:8080/";
+}

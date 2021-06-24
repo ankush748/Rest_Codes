@@ -1,0 +1,13 @@
+package com.test.rest_api;
+
+import org.testng.TestNG;
+import org.testng.annotations.Test;
+
+public class json_parse {
+	
+	@Test
+	public void test() {
+		
+	}
+
+}

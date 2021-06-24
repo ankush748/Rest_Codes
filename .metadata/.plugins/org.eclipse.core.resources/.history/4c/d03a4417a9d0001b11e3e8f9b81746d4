@@ -1,0 +1,10 @@
+package com.test.rest_api;
+
+public class rest_api {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

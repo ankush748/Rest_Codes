@@ -1,0 +1,45 @@
+package com.test.rest_api;
+
+import org.testng.annotations.Test;
+
+import files.json_payload;
+import io.restassured.path.json.JsonPath;
+
+public class json_parse {
+	
+	public static void main(String[] args) {
+		test1();
+		test2();
+		test3();
+		test4();
+	}
+	
+	public static void test1() {
+		JsonPath json_path=new JsonPath(json_payload.payload());
+		//1. Print No of courses returned by API
+		System.out.println(json_path.getInt("courses.size()"));
+	}
+	
+	public static void test2() {
+		JsonPath json_path=new JsonPath(json_payload.payload());
+		//2.Print Purchase Amount
+		System.out.println(json_path.getString("dashboard.purchaseAmount"));
+	}
+	
+	public static void test3() {
+		JsonPath json_path=new JsonPath(json_payload.payload());
+		//3. Print Title of the first course
+		System.out.println(json_path.getString("courses[0].title"));
+	}
+	
+	public static void test4() {
+		JsonPath json_path=new JsonPath(json_payload.payload());
+		//4.Print All course titles and their respective Prices
+		int size=json_path.getInt("courses.size()");
+		for(int i=0;i<size;i++) {
+			System.out.println(json_path.getString("courses["+i+"].title"));
+			System.out.println(json_path.getString("courses["+i+"].price"));
+		}
+	}
+
+}

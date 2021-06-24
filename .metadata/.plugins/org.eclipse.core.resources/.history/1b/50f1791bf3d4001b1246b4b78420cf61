@@ -1,0 +1,19 @@
+package com.test.rest_api;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+
+
+public class Jira_Test {
+	
+	@Test
+	void abc() {
+		RestAssured.baseURI="http://localhost:8080";
+		given().log().all().header("Content-Type","").
+		
+	}
+	
+	
+}

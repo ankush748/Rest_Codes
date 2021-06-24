@@ -1,0 +1,12 @@
+package com.test.rest_api;
+
+import junit.framework.Test;
+
+public class json_parse {
+	
+	@Test
+	public void test() {
+		
+	}
+
+}
