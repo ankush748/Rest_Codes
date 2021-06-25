@@ -31,7 +31,7 @@ public class Parsing_json_Jira {
 			String id=jpath.getString("comments["+i+"].id");
 			String key_update=jpath.getString("comments["+i+"].updateAuthor.email");
 			System.out.println(key_update);
-	//abc
+	///compare ids 123
 			if(id.equals("10001")) {
 				System.out.println(comment);
 				break;
