@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-24T21:26:57 IST" name="Default suite" finished-at="2021-06-24T21:27:00 IST" duration-ms="2282">
+  <suite started-at="2021-07-04T09:21:59 IST" name="Default suite" finished-at="2021-07-04T09:22:13 IST" duration-ms="13191">
     <groups>
     </groups>
-    <test started-at="2021-06-24T21:26:57 IST" name="Default test" finished-at="2021-06-24T21:27:00 IST" duration-ms="2282">
-      <class name="com.test.rest_api.Parsing_json_Jira">
-        <test-method signature="comments_filter()[pri:0, instance:com.test.rest_api.Parsing_json_Jira@56de5251]" started-at="2021-06-24T21:26:57 IST" name="comments_filter" finished-at="2021-06-24T21:27:00 IST" duration-ms="2241" status="PASS">
+    <test started-at="2021-07-04T09:21:59 IST" name="Default test" finished-at="2021-07-04T09:22:13 IST" duration-ms="13191">
+      <class name="deserialize.oauth2_validations">
+        <test-method signature="bookmyshow()[pri:1, instance:deserialize.oauth2_validations@5fbdfdcf]" started-at="2021-07-04T09:21:59 IST" name="bookmyshow" finished-at="2021-07-04T09:22:13 IST" duration-ms="13161" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- comments_filter -->
-      </class> <!-- com.test.rest_api.Parsing_json_Jira -->
+        </test-method> <!-- bookmyshow -->
+      </class> <!-- deserialize.oauth2_validations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

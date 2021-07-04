@@ -20,6 +20,7 @@ public class json_parse {
 		JsonPath json_path=new JsonPath(json_payload.payload());
 		//1. Print No of courses returned by API
 		System.out.println(json_path.getInt("courses.size()"));
+		System.out.println(System.getProperty("user.dir"));
 	}
 	
 	public static void test2() {

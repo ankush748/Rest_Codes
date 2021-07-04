@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.rest_api.Parsing_json_Jira">
+      <class name="deserialize.oauth2_validations">
         <methods>
-          <include name="comments_filter"/>
+          <include name="bookmyshow"/>
         </methods>
-      </class> <!-- com.test.rest_api.Parsing_json_Jira -->
+      </class> <!-- deserialize.oauth2_validations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
